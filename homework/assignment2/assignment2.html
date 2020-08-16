@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <link href='https://fonts.googleapis.com/css?family=Caveat Brush' rel='stylesheet'>
+        <link href='assignment2.css' rel='stylesheet'>
+        <script src="assignment2.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    </head>
+    <body>
+        <nav class="navbar navbar-light bg-light ml-auto d-flex justify-content-center">
+            <h1 class="navbar-brand" href="#" style="font-family: Caveat Brush; font-size: 30px;">
+              Our Store
+            </h1>
+        </nav>
+        <div class="container">
+            <div class="row">
+                <input type="button" class="col btn " name="all" onclick=" alla(event);" value="all"/>
+                <input type="button" class="col btn " name="cake" onclick=" alla(event);" value="cake"/>
+                <input type="button" class="col btn " name="cupcake" onclick=" alla(event);" value="cupcake"/>
+                <input type="button" class="col btn " name="sweet" onclick=" alla(event);" value="sweet"/>
+                <input type="button" class="col btn " name="doughnut" onclick=" alla(event);" value="doughnut"/>
+                    
+            </div>    
+            <div class="row">
+                
+                    <div class="input-group">
+                      <input type="text" class="form-control" placeholder="Search" id="search">
+                      <div class="input-group-btn">
+                        <button class="btn" onclick="search()">
+                          Search
+                        </button>
+                      </div>
+                    </div>
+                
+            </div>
+            <div class="row" id="item" >
+                
+            </div>
+            <div class="row" id="new" >
+                
+            </div>
+       
+        </div>
+    </body>
+</html>

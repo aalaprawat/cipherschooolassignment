@@ -1,0 +1,61 @@
+[
+    {   
+        "name":"strawberry",
+        "price":"5",
+        "image":"./images/three.jpg",
+        "type":"cake"
+    },
+    {   
+        "name":"mango",
+        "price":"16",
+        "image":"./images/two.jpg",
+        "type":"cake"
+    },{
+        "name":"Butter Scotch",
+        "price":"10",
+        "image":"./images/one.jpg",
+        "type":"cake"
+    },
+    {   
+        "name":"Vanilla",
+        "price":"5",
+        "image":"./images/five.jpg",
+        "type":"cupcake"
+    },
+    {   
+        "name":"Cherry",
+        "price":"16",
+        "image":"./images/six.jpg",
+        "type":"cupcake"
+    },{
+        "name":"Kaju katli",
+        "price":"100",
+        "image":"./images/six.webp",
+        "type":"sweet"
+    },
+    {   
+        "name":"Rasgulla",
+        "price":"10",
+        "image":"./images/seven.jpg",
+        "type":"sweet"
+    },
+    {   
+        "name":"Peda",
+        "price":"5",
+        "image":"./images/download.jpg",
+        "type":"sweet"
+    },
+    {
+        "name":"Bagel",
+        "price":"9",
+        "image":"./images/bagel.jpg",
+        "type":"doughnut"
+    },
+    {   
+        "name":"American",
+        "price":"8",
+        "image":"./images/do.jpg",
+        "type":"doughnut"
+    }
+
+]
