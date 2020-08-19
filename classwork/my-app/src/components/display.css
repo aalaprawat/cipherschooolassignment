@@ -1,0 +1,18 @@
+.course-card{
+    background: peru;
+    height: auto;
+    width: 100%;
+    text-align: left;
+    border: 1px solid white;
+    color: white;
+    padding: 10px;
+    margin: 5px auto;
+    position: relative;
+    /* display: inline-block; */
+}
+
+.course-card p i{
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: underline;
+}

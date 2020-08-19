@@ -1,0 +1,18 @@
+.add-form{
+    width: 200px;
+    height: 200px;
+    background: lightgreen;
+    color: darkred;
+    border: 2px solid black;
+    padding: 10px;
+    margin: 10px;
+}
+
+.add-form label{
+    padding: 2px;
+    margin: 5px;
+}
+
+.add-form input{
+    margin: 5px;
+}
