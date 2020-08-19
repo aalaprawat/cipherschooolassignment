@@ -9,7 +9,13 @@ class AddCourse extends Component{
         instructor: ''
     }
     
+    handleDelete = (event) => {
+        this.setState({
+            [event.target.id]: event.target.value,
+        })
+    }
 
+    
     // object['property']
     handleChange = (event) => {
         // console.log([event.target.id]);

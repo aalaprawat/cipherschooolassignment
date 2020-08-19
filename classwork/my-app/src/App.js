@@ -25,9 +25,13 @@ class App extends React.Component {
      })
    }
 
-   deleteCourse = (courseid) => {
-
+   deleteCourse=(course)=>{
+     this.setState({
+        courseDetails:course
+     })
    }
+
+
 
 
   render(){

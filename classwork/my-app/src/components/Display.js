@@ -3,14 +3,15 @@ import './display.css';
 import Loading from './Loading';
 
 
-let Display = ({courseDetails}) => {
+let Display = ({deleteCourse,courseDetails}) => {
 
     const handleDelete=(id)=>{
+        console.log(deleteCourse)
         console.log(id+"this button is clicked")
         courseDetails=courseDetails.filter((element)=>{
             return element.id!==id
         })
-        console.log(courseDetails)
+        deleteCourse(courseDetails)
         
     }
     
